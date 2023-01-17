@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> User Info </title>
+</head>
+<body>
+<p th:text="${user.getUsername()}">VALUE</p>
+<p th:text="${user.getPassword()}">VALUE</p>
+<br/>
+<hr/>
+<a href="/">На главную</a>
+<a href="/logout">Выйти из учетной записи</a>
+</body>
+</html>
